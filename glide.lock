@@ -1,0 +1,20 @@
+hash: 8754065efa98497ceca09710e8a9c072d8cf24d7246e47dfbc0fb6748e34fcb7
+updated: 2017-07-19T13:09:26.629618439+05:30
+imports:
+- name: github.com/ogier/pflag
+  version: 45c278ab3607870051a2ea9040bb85fcb8557481
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+  - mock
+  - require
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
